@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import { Button } from '../components/button'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
             />
           </a>
         </div>
+        
       </div>
 
       <div className={styles.center}>
@@ -38,6 +40,8 @@ export default function Home() {
           priority
         />
       </div>
+
+      <Button size='large'>adfadfasdf</Button>
 
       <div className={styles.grid}>
         <a
